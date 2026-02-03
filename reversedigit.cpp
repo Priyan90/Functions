@@ -4,7 +4,7 @@ int main(){
     int n;
     cin>>n;
     int reversedNumber=0;
-    while(n>0){
+    while(n!=0){
         int k=n%10;
         reversedNumber=reversedNumber*10 + k;
         n=n/10;
