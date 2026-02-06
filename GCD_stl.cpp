@@ -2,8 +2,9 @@
 #include<algorithm>
 using namespace std;
 int main(){
-    int a=5;
-    int b=10;
+    int a;
+    int b;
+    cin>>a>>b;
     cout<<__gcd(a,b);
     return 0;
 }
