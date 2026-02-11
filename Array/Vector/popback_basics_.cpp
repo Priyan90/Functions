@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<algorithm>
 using namespace std;
 int main(){
     //initialization
@@ -21,6 +22,20 @@ cout<<a.front()<<endl;
 //last element
 cout<<a.back()<<endl;
 
+
+// Put mid value
+a.insert(a.begin()+a.size()/2,6);
+for (int i=0; i<a.size(); i++){
+cout<<a[i]<<" ";
+}
+cout<<endl;
+  
+
+//sort
+sort(a.begin(),a.end());
+for( int i=0; i<a.size(); i++){
+    cout<<a[i]<<" ";
+}
 return 0;
 
 }
