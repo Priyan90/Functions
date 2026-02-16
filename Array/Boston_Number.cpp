@@ -34,13 +34,13 @@ int main(){
 
         }
     }
-    cout<<sum<<endl;
-    cout<<factor<<endl;
+    // cout<<sum<<endl;
+    // cout<<factor<<endl;
     if(sum==factor){
-        cout<<"Boston"<<endl;
+        cout<<1<<endl;
 
     } else{
-        cout<<"Not Boston"<<endl;
+        cout<<0<<endl;
 
     }
     return 0;
